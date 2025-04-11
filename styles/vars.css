@@ -1,3 +1,7 @@
 :root {
+    /* FONTS */
     --font-principal: "DM Sans", sans-serif;
+    /* COLORS */
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
 }

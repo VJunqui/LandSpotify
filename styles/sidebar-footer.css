@@ -43,7 +43,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -71,7 +70,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -112,7 +110,6 @@ body {
 .section__playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section__playlist__content .title {
@@ -132,7 +129,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -173,14 +169,13 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #1fb66f, #b6e7d0);
+    background: linear-gradient(to right, #2aac6f, #70cca1);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
 }
 .disclaimer-premium .text {
    flex-shrink: 0;
-   font-family: "DM Sans", sans-serif;
 }
 .disclaimer-premium .disclaimer-premium__title {
     color: #ffffff;
