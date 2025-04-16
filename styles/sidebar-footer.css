@@ -88,7 +88,7 @@ body {
     margin: 24px 10px;
 }
 
-.section__playlist {
+.section-playlist {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -102,26 +102,26 @@ body {
     border-radius: 10px;
 }
 
-.section__playlist .section__playlist__content {
+.section-playlist .section-playlist__content {
     display: flex;
     flex-direction: column;
 }
 
-.section__playlist__content .text {
+.section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
 }
 
-.section__playlist__content .title {
+.section-playlist__content .title {
     font-weight: 700;
 }
 
-.section__playlist__content .subtitle {
+.section-playlist__content .subtitle {
     font-weight: 500;
     font-size: 12px;
 }
 
-.section__playlist__content .section__playlist__button {
+.section-playlist__content .section-playlist__button {
     display: flex;
     justify-content: center;
     background-color: #fff;

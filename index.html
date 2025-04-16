@@ -47,11 +47,11 @@
                 <span class="fa fa-plus"></span>
             </div>
 
-            <section class="section__playlist">
-                <div class="section__playlist__content">
+            <section class="section-playlist">
+                <div class="section-playlist__content">
                     <span class="text title">Crie sua primeira playlist</span>
                     <span class="text subtitle">É fácil, vamos te ajudar!</span>
-                    <button class="section__playlist__button">
+                    <button class="section-playlist__button">
                     <span>Criar playlist</span>
                     </button>
                 </div>
@@ -71,28 +71,29 @@
     </div> 
 
     <main>
-        <div class="main__container">
+        <div class="main-container">
             <nav class="header__navigation">
                 <div class="navigation">
-                    <button class="arrow__left">
+                    <button class="arrow-left">
                         <img src="source/assets/icons/small-left.png" alt="Seta esquerda">
                     </button>
-                    <button class="arrow__right">
+                    <button class="arrow-right">
                         <img src="source/assets/icons/small-right.png" alt="Seta direita">
                     </button>
                 </div>
                 <div class="header__search">
                     <img src="source/assets/icons/search.png" alt="">
-                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                    <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
+                        placeholder="O que você quer ouvir?" value="" />
                 </div>
                 <div class="header__login">
                     <button class="subscribe">Inscreva-se</button>
                     <button class="login">Entrar</button>
                 </div>
             </nav>
-
-            <div class="playlist__container">
-                <div id="result__playlists">
+            <!-- PLAYLIST -->
+            <div class="playlist-container">
+                <div id="result-playlists">
                     <div class="playlist">
                         <h1 id="greeting">Boas vindas!</h1>
                         <h2 class="session">Navegar por todas as seções..</h2>
